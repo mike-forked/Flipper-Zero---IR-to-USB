@@ -1,0 +1,9 @@
+App(
+    appid="ir_to_hid",
+    name="IR to USB",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ir_to_hid_app",
+    requires=["gui", "infrared"],
+    stack_size=2 * 1024,
+    fap_category="Misc",
+)
